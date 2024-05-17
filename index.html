@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.webp" type="image/gif" sizes="16x16">
+</head>
+<body>
+<header>
+    <div class="header">
+        <h1 id="heading">Guess Number</h1>
+    </div>
+</header>
+<main>
+    <div class="text">
+        <b><p>Enter the number between 1 and 100</p></b>
+       <b><p>You have 10 attempts to guess the right number</p></b>
+    </div>
+    <form>
+        <h1 id="head">Guess the number</h1>
+        <label for="input">Enter the number</label>
+        <input type="text" id="input" required><br>
+        <button type="submit">Submit guess</button>
+    </form>
+    <div class="guess">
+        <p id="pguess">Previous guesses:<span class="guesses"></span></p>
+        <p>Guesses remaining:<span class="lastresult">10</span></p>
+        <p class="low_or_high"></p>
+    </div>
+
+</main>
+<script src="javascript.js"></script>
+</body>
+</html>
